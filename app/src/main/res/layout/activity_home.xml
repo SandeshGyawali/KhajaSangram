@@ -14,18 +14,17 @@
         android:layout_height="wrap_content"
         android:text="@string/nearby_res"
         android:textSize="16sp" />
-    <ScrollView
+    <HorizontalScrollView
         android:layout_width="match_parent"
         android:layout_height="150dp">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerViewContainer"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
+            android:layout_height="wrap_content">
         </androidx.recyclerview.widget.RecyclerView>
 
-    </ScrollView>
+    </HorizontalScrollView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
