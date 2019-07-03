@@ -1,0 +1,2 @@
+# KhajaSangram
+For Minor Project
